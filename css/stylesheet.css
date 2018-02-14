@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+}
+
+.header {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #800000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.header li {
+	float: left;
+}
+
+.header li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding:  14px;
+	text-decoration: none;
+}
+
+.header li a:hover {
+	background-color: #cc0000;
+}
+
+.header .active {
+	background-color: #000;
+}
+
+.main_body {
+	padding: 20px;
+	margin-top:  30px;
+	background-color: #999999;
+	height: 100%;
+}

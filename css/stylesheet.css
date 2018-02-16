@@ -15,6 +15,7 @@ body {
 
 .header li {
 	float: left;
+	border-right: 1px solid #bbb;
 }
 
 .header li a {
@@ -31,6 +32,11 @@ body {
 
 .header .active {
 	background-color: #000;
+}
+
+.header .right {
+	border-left: 1px solid #bbb;
+	border-right: none;
 }
 
 .main_body {

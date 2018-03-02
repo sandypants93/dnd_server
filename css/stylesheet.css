@@ -45,3 +45,50 @@ body {
 	background-color: #999999;
 	height: 100%;
 }
+
+.login_form {
+	border: 3px solid #bbb;
+	background-color: #800000;
+	padding: 5px;
+	margin: 0px auto 0px auto;
+	width: 50%;
+}
+
+.login_form label {
+	color: white;
+}
+
+.login_form input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	display: inline-block;
+	border: 1px solid #bbb;
+	box-sizing: border-box;
+	
+}
+
+.login_form button {
+	background-color: #000000; 
+	color: white;
+	padding: 14px 20px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	width: 100%;
+}
+
+.login_form button:hover {
+	opacity: 0.8;
+}
+
+.login_form .container {
+	padding: 16px;
+}
+
+.login_form .container span.psw {
+	float: right;
+}
+
+.login_form .container span.psw a {
+	color: white;
+}
